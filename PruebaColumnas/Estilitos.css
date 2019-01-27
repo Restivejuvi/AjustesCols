@@ -1,11 +1,25 @@
 .container{
+  background-color: purple;
+  color:white;
   text-align: center;
   width: 100%;
-
 }
+
 .container .row{
   text-align: center;
+  border-color:purple;
 }
+
 .container .row .col{
-border-color: blue;
+}
+@media only screen and (min-width:981px){
+  .container .row{
+  border-radius: 180px;
+  background-color: black;
+  }
+}
+@media only screen and (min-width:1200px){
+  .container .row .col{
+
+  }
 }
